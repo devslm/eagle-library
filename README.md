@@ -1,5 +1,5 @@
 # Custom Eagle libraries
-- Microchip PIC32MM0064GPL020 (SOIC)
+- Microchip PIC32MM0064GPL020 (SSOP20)
 - Microchip PIC32MX450F128H (TQFP64)
 - Microchip MIC2876 (UDFN 2x2)
 - Microchip MCP16311 (MSOP)
