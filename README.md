@@ -11,3 +11,4 @@
 - IRLR2905
 
 - RJ-45 smd library
+- NRF24L01 1100 (NRF24L01SMD + PA) (SMD)
