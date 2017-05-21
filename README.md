@@ -3,6 +3,7 @@
 - Microchip PIC32MX450F128H (TQFP64)
 - Microchip MIC2876 (UDFN 2x2)
 - Microchip MCP16311 (MSOP)
+- TP4056 (SOIC)
 
 - GlobalTop GMS-G6 (LCC)
 - Fibocom G610 (LCC)
