@@ -11,6 +11,9 @@
 - IRLML6402
 - IRLR2905
 
+- Quectel L76
+- Quectel M66
+
 - LED SMD 5730
 
 - RJ-45 smd library
