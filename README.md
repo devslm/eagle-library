@@ -14,6 +14,11 @@
 - Quectel L76
 - Quectel M66
 
+- Texas Instruments LM2623
+- Texas Instruments TPS706
+- Texas Instruments TPS54231
+- Texas Instruments LM3658
+
 - LED SMD 5730
 
 - FIgaro TGS5342
