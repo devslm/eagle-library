@@ -21,7 +21,11 @@
 
 - LED SMD 5730
 
-- FIgaro TGS5342
+- Figaro TGS5342
+
+- IR IRF7580 (DIRECT-FET-ME)
+
+- Infineon IR2109S
 
 - RJ-45 smd library
 - NRF24L01 1100 (NRF24L01SMD + PA) (SMD)
