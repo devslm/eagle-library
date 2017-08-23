@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1738,12 +1738,12 @@ Source: 1859075.pdf (Farnell)</description>
 <wire x1="-2.47" y1="2.42" x2="2.56" y2="2.42" width="0.01" layer="21"/>
 <smd name="D@1" x="-2.94" y="-0.03" dx="3.9" dy="0.5" layer="1" rot="R90"/>
 <smd name="D@2" x="3.04" y="-0.04" dx="3.9" dy="0.5" layer="1" rot="R90"/>
-<smd name="S@1" x="-1.46" y="1.23" dx="1.3" dy="0.6" layer="1" rot="R90"/>
+<smd name="S@1" x="-1.46" y="-1.14" dx="1.3" dy="0.6" layer="1" rot="R90"/>
 <smd name="S@2" x="-0.09" y="1.23" dx="1.3" dy="0.95" layer="1" rot="R90"/>
 <smd name="S@3" x="1.47" y="1.24" dx="1.3" dy="0.95" layer="1" rot="R90"/>
 <smd name="S@4" x="1.48" y="-1.15" dx="1.3" dy="0.95" layer="1" rot="R90"/>
 <smd name="S@5" x="-0.08" y="-1.14" dx="1.3" dy="0.95" layer="1" rot="R90"/>
-<smd name="G" x="-1.46" y="-1.25" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="G" x="-1.46" y="1.31" dx="1.1" dy="0.6" layer="1" rot="R90"/>
 <circle x="-2.3" y="-2.9" radius="0.05" width="0.5" layer="21"/>
 <wire x1="-2.69" y1="1.92" x2="-2.67" y2="1.92" width="0.01" layer="21"/>
 <wire x1="-2.67" y1="1.92" x2="-2.59" y2="2" width="0.01" layer="21" curve="90"/>
@@ -1764,6 +1764,23 @@ Source: 1859075.pdf (Farnell)</description>
 <wire x1="-2.47" y1="-2.49" x2="2.56" y2="-2.49" width="0.01" layer="21"/>
 <text x="-2.95" y="2.68" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.98" y="-4.44" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="PQFN">
+<wire x1="-0.98" y1="0.82" x2="1.02" y2="0.82" width="0.01" layer="21"/>
+<wire x1="1.02" y1="0.82" x2="1.02" y2="-1.18" width="0.01" layer="21"/>
+<wire x1="1.02" y1="-1.18" x2="-0.98" y2="-1.18" width="0.01" layer="21"/>
+<wire x1="-0.98" y1="-1.18" x2="-0.98" y2="0.82" width="0.01" layer="21"/>
+<smd name="D@1" x="-0.9" y="0.52" dx="0.4" dy="0.2" layer="1"/>
+<smd name="G" x="-0.9" y="-0.87" dx="0.4" dy="0.2" layer="1"/>
+<smd name="D@4" x="0.94" y="0.52" dx="0.4" dy="0.2" layer="1"/>
+<smd name="S@1" x="0.94" y="-0.87" dx="0.4" dy="0.2" layer="1"/>
+<smd name="D@2" x="-0.9" y="-0.13" dx="0.4" dy="0.2" layer="1"/>
+<smd name="D@3" x="0.94" y="-0.14" dx="0.4" dy="0.2" layer="1"/>
+<circle x="-1.12" y="0.91" radius="0.05" width="0.09" layer="21"/>
+<text x="-2.92" y="1.25" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.11" y="-2.81" size="1.27" layer="21">&gt;VALUE</text>
+<smd name="D@5" x="0.02" y="0.12" dx="1.2" dy="1" layer="1"/>
+<smd name="S@2" x="0.02" y="-0.91" dx="0.78" dy="0.23" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -2203,6 +2220,80 @@ Source: 1859075.pdf (Farnell)</description>
 </polygon>
 <wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
 <wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="IRF7480">
+<description>MOSFET N-channel - Enhancement mode</description>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.254" width="0" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.254" width="0" layer="94"/>
+<text x="-11.43" y="3.81" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
+<text x="-11.43" y="1.27" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="0"/>
+<vertex x="2.032" y="0.508"/>
+<vertex x="2.032" y="-0.508"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+<wire x1="3.302" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="IRLHS2242TR">
+<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.048" y1="-0.762" x2="3.302" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-0.508" x2="3.81" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-0.508" x2="4.318" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="-0.508" x2="4.572" y2="-0.254" width="0.1524" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.254" width="0" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.254" width="0" layer="94"/>
+<text x="-11.43" y="3.81" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
+<text x="-11.43" y="1.27" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="-0.508"/>
+<vertex x="4.318" y="0.254"/>
+<vertex x="3.302" y="0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="0"/>
+<vertex x="1.524" y="-0.762"/>
+<vertex x="1.524" y="0.762"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -2778,6 +2869,40 @@ Source: 1859075.pdf (Farnell)</description>
 <connect gate="G$1" pin="D" pad="D@1 D@2"/>
 <connect gate="G$1" pin="G" pad="G"/>
 <connect gate="G$1" pin="S" pad="S@1 S@2 S@3 S@4 S@5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRF7480" prefix="U">
+<gates>
+<gate name="G$1" symbol="IRF7480" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIRECT-FET-ME">
+<connects>
+<connect gate="G$1" pin="D" pad="D@1 D@2"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S@1 S@2 S@3 S@4 S@5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRLHS2242" prefix="Q">
+<gates>
+<gate name="G$1" symbol="IRLHS2242TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PQFN">
+<connects>
+<connect gate="G$1" pin="D" pad="D@1 D@2 D@3 D@4 D@5"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S@1 S@2"/>
 </connects>
 <technologies>
 <technology name=""/>
